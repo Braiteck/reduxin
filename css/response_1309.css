@@ -1,0 +1,460 @@
+@media (max-width: 1309px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    .page_head
+    {
+        margin-top: 80px;
+        margin-bottom: 65px;
+    }
+
+    .page_head img
+    {
+        right: 15px;
+    }
+
+    .page_head h1
+    {
+        font-size: 42px;
+        line-height: 46px;
+    }
+
+    .page_head img + h1
+    {
+        max-width: calc(100% - 490px);
+    }
+
+
+
+    .content
+    {
+        width: 100%;
+
+        order: 2;
+    }
+
+
+
+    .tabs li
+    {
+        width: 300px;
+    }
+
+    .tabs li a
+    {
+        font-size: 20px;
+        line-height: 60px;
+
+        height: 60px;
+    }
+
+
+
+    /*---------------
+        Header
+    ---------------*/
+    header .cont
+    {
+        height: 80px;
+    }
+
+    header .slogan
+    {
+        display: none;
+    }
+
+
+    header .menu a
+    {
+        font-size: 15px;
+    }
+
+    header .menu .sep
+    {
+        margin: 0 20px;
+    }
+
+
+    header .stamp
+    {
+        right: 0;
+
+        width: 120px;
+    }
+
+
+
+    /*---------------
+        Sidebar
+    ---------------*/
+    aside
+    {
+        width: 100%;
+        padding-bottom: 30px;
+
+        order: 1;
+    }
+
+
+    aside .download
+    {
+        margin-bottom: 0;
+    }
+
+    aside .download a
+    {
+        padding: 18px 20px 14px;
+    }
+
+
+    aside .page_menu
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        Main section
+    ---------------*/
+    .first_section
+    {
+        margin-top: 79px;
+    }
+
+    .first_section .info
+    {
+        top: 115px;
+
+        width: 450px;
+    }
+
+    .first_section .title
+    {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .first_section .title b
+    {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .first_section .img
+    {
+        height: 325px;
+        margin-bottom: 40px;
+    }
+
+
+
+    .advantages
+    {
+        padding: 80px 0;
+    }
+
+    .advantages .title
+    {
+        font-size: 50px;
+        line-height: 52px;
+
+        top: -45px;
+
+        width: 400px;
+    }
+
+    .advantages .title b
+    {
+        font-size: 60px;
+        line-height: 62px;
+    }
+
+    .advantages .img
+    {
+        right: 0;
+
+        width: 500px;
+    }
+
+
+
+    .obesity
+    {
+        padding: 50px 0;
+    }
+
+    .obesity .img
+    {
+        width: 350px;
+    }
+
+    .obesity .info
+    {
+        width: calc(100% - 380px);
+    }
+
+    .obesity .info .grid
+    {
+        margin-left: -40px;
+    }
+
+    .obesity .info .grid .item
+    {
+        font-size: 16px;
+
+        width: calc(50% - 40px);
+        margin-left: 40px;
+    }
+
+    .obesity .info .grid .item .icon
+    {
+        width: 90px;
+    }
+
+    .obesity .info .grid .item .name
+    {
+        width: calc(100% - 105px);
+    }
+
+
+
+    .at_weight .img
+    {
+        width: 300px;
+        padding-left: 20px;
+    }
+
+    .at_weight .info
+    {
+        width: calc(100% - 330px);
+    }
+
+    .at_weight .info .grid
+    {
+        margin-left: -40px;
+    }
+
+    .at_weight .info .grid .item
+    {
+        font-size: 16px;
+
+        width: calc(50% - 40px);
+        margin-left: 40px;
+    }
+
+    .at_weight .info .grid .item .icon
+    {
+        width: 90px;
+    }
+
+    .at_weight .info .grid .item .name
+    {
+        width: calc(100% - 105px);
+    }
+
+
+
+    .perfect_drug .info
+    {
+        width: calc(100% - 330px);
+        padding: 0;
+    }
+
+    .perfect_drug .info .item .foto
+    {
+        margin-top: 15px;
+    }
+
+    .perfect_drug .info .item .text
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        padding: 15px 20px;
+    }
+
+
+
+    .ideal_drug
+    {
+        padding: 60px 0 30px;
+    }
+
+    .ideal_drug .cont > .title
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .ideal_drug .info .col.left
+    {
+        padding: 80px 170px 50px 145px;
+    }
+
+    .ideal_drug .info .title
+    {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .ideal_drug .info li
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .ideal_drug .info .col.right
+    {
+        padding: 80px 145px 50px 185px;
+    }
+
+
+
+    .bottom_block .title
+    {
+        font-size: 20px;
+    }
+
+    .bottom_block .title img
+    {
+        height: 26px;
+    }
+
+    .bottom_block .exp
+    {
+        margin-top: 5px;
+    }
+
+
+
+    .video_block
+    {
+        margin-bottom: 40px;
+    }
+
+
+
+    .reduxin_head
+    {
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+
+    .reduxin_head .cont
+    {
+        min-height: 0;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .reduxin_head h1
+    {
+        font-size: 42px;
+        line-height: 46px;
+    }
+
+    .reduxin_head .slogan
+    {
+        font-size: 24px;
+
+        margin-top: 40px;
+        margin-left: 115px;
+    }
+
+    .reduxin_head ul li
+    {
+        font-size: 22px;
+    }
+
+    .reduxin_head img
+    {
+        right: 15px;
+
+        width: 450px;
+    }
+
+
+
+    .reduxin .text
+    {
+        font-size: 18px;
+        line-height: 26px;
+
+        margin-bottom: 35px;
+        padding-bottom: 30px;
+    }
+
+
+
+    .text_block
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .text_block h2
+    {
+        font-size: 36px;
+        line-height: 40px;
+
+        margin-bottom: 30px;
+    }
+
+    .text_block h3
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+
+    .text_block .download
+    {
+        margin: 30px 0;
+    }
+
+    .text_block .download .item
+    {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .text_block .download .item .name
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        padding: 30px 0 20px;
+    }
+
+
+    footer .creator
+    {
+        width: 100%;
+        margin-top: 20px;
+
+        text-align: right;
+    }
+
+    footer .creator br
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        PopUp
+    ---------------*/
+}

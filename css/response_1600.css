@@ -1,0 +1,289 @@
+@media (min-width: 1650px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    .page_head
+    {
+        margin-top: 95px;
+    }
+
+
+
+    /*---------------
+        Header
+    ---------------*/
+    header .cont
+    {
+        height: 95px;
+    }
+
+
+    header .stamp
+    {
+        top: 60px;
+    }
+
+
+
+    /*---------------
+        Sidebar
+    ---------------*/
+
+
+
+    /*---------------
+        Main section
+    ---------------*/
+    .first_section
+    {
+        margin-top: 94px;
+    }
+
+    .first_section .info
+    {
+        top: 150px;
+    }
+
+    .first_section .title
+    {
+        font-size: 40px;
+        line-height: 42px;
+    }
+
+    .first_section .title b
+    {
+        font-size: 60px;
+        line-height: 60px;
+
+        padding-left: 40px;
+    }
+
+    .first_section .img
+    {
+        height: 450px;
+        margin-bottom: 60px;
+    }
+
+
+
+    .advantages
+    {
+        min-height: 100vh;
+        padding: 80px 0 100px;
+    }
+
+    .advantages .title
+    {
+        font-size: 58px;
+        line-height: 60px;
+    }
+
+    .advantages .title b
+    {
+        font-size: 75px;
+        line-height: 80px;
+
+        padding-left: 45px;
+    }
+
+    .advantages .info .logo img
+    {
+        height: auto;
+    }
+
+    .advantages .info li
+    {
+        font-size: 22px;
+    }
+
+    .advantages .img
+    {
+        bottom: -140px;
+
+        height: auto;
+    }
+
+
+
+    .obesity
+    {
+        padding: 50px 0;
+    }
+
+    .obesity .img img
+    {
+        height: 700px;
+    }
+
+    .obesity .img img.thin
+    {
+        height: 630px;
+    }
+
+    .obesity .info .title
+    {
+        font-size: 42px;
+        line-height: 50px;
+
+        margin-bottom: 30px;
+    }
+
+    .obesity .info .desc
+    {
+        font-size: 24px;
+    }
+
+    .obesity .info .grid
+    {
+        margin-top: 50px;
+    }
+
+    .obesity .info .grid .item
+    {
+        font-size: 18px;
+    }
+
+    .obesity .info .grid .item .icon
+    {
+        width: 106px;
+    }
+
+    .obesity .info .grid .item .name
+    {
+        width: calc(100% - 126px);
+    }
+
+    .obesity .info .exp
+    {
+        margin-top: 50px;
+    }
+
+
+
+    .at_weight
+    {
+        padding: 50px 0;
+    }
+
+    .at_weight .info .title
+    {
+        font-size: 42px;
+        line-height: 50px;
+
+        margin-bottom: 30px;
+    }
+
+    .at_weight .info .desc
+    {
+        font-size: 24px;
+    }
+
+    .at_weight .info .grid
+    {
+        margin-top: 50px;
+    }
+
+    .at_weight .info .grid .item
+    {
+        font-size: 18px;
+    }
+
+    .at_weight .info .grid .item .icon
+    {
+        width: 106px;
+    }
+
+    .at_weight .info .grid .item .name
+    {
+        width: calc(100% - 126px);
+    }
+
+
+
+    .perfect_drug .info .title
+    {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .perfect_drug .info .title small
+    {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .perfect_drug .info .item .text
+    {
+        padding: 20px 30px;
+    }
+
+
+
+    .ideal_drug .block_title
+    {
+        font-size: 42px;
+        line-height: 50px;
+    }
+
+    .ideal_drug .cont > .title
+    {
+        font-size: 24px;
+        line-height: 30px;
+
+        width: 675px;
+    }
+
+    .ideal_drug .cont > .title small
+    {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .ideal_drug .info .col.left
+    {
+        padding: 60px 220px 50px 160px;
+    }
+
+    .ideal_drug .info .col.right
+    {
+        padding: 60px 160px 50px 270px;
+    }
+
+    .ideal_drug .info .title
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .ideal_drug .info li
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+
+
+    .reduxin_head
+    {
+        margin-top: 95px;
+    }
+
+
+    .bottom_block
+    {
+        padding-top: 40px;
+    }
+
+
+
+    /*---------------
+        Footer
+    ---------------*/
+
+
+
+    /*---------------
+        PopUp
+    ---------------*/
+}

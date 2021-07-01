@@ -1,0 +1,590 @@
+@media (max-width: 479px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    .page_head
+    {
+        margin-top: 60px;
+    }
+
+    .page_head img
+    {
+        max-width: 85%;
+    }
+
+    .page_head h1
+    {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+
+
+    .tabs
+    {
+        width: 100%;
+    }
+
+    .tabs li
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .tabs li + li
+    {
+        margin-top: 15px;
+        margin-left: 0;
+    }
+
+
+
+    /*---------------
+        Header
+    ---------------*/
+    header .cont
+    {
+        height: 60px;
+    }
+
+    header .logo a,
+    header .logo a img
+    {
+        height: 30px;
+    }
+
+
+    header .mob_menu_link
+    {
+        margin-bottom: 10px;
+    }
+
+
+    header .stamp
+    {
+        top: 40px;
+    }
+
+
+
+    /*---------------
+        Sidebar
+    ---------------*/
+    aside .download a
+    {
+        font-size: 14px;
+
+        padding: 15px 15px 11px;
+    }
+
+
+
+    /*---------------
+        Main section
+    ---------------*/
+    .first_scrolling_bock
+    {
+        background-attachment: scroll;
+    }
+
+
+    .first_section
+    {
+        margin-top: 59px;
+    }
+
+    .first_section .cont
+    {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .first_section .info
+    {
+        right: auto !important;
+
+        padding-left: 30px;
+
+        text-align: left;
+    }
+
+    .first_section .title
+    {
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    .first_section .title b
+    {
+        font-size: 32px;
+        line-height: 34px;
+
+        padding-left: 0;
+    }
+
+    .first_section .img
+    {
+        position: relative;
+        top: 0;
+        right: 0;
+        bottom: 0;
+
+        max-width: 95%;
+        max-height: 100%;
+        margin: 20px auto 0;
+
+        transform: none;
+    }
+
+
+
+    .advantages
+    {
+        padding: 40px 0 30px;
+    }
+
+    .advantages .info li
+    {
+        font-size: 16px;
+    }
+
+    .advantages .info li small
+    {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .advantages .info li:last-child
+    {
+        padding-right: 0;
+    }
+
+
+
+    .obesity
+    {
+        padding: 30px 0 40px;
+    }
+
+    .obesity .img
+    {
+        position: relative;
+
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .obesity .img img
+    {
+        width: 100px;
+        margin: 0 auto;
+    }
+
+    .obesity .info
+    {
+        width: 100%;
+    }
+
+    .obesity .info .title
+    {
+        font-size: 27px;
+        line-height: 33px;
+    }
+
+    .obesity .info .desc
+    {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .obesity .info .grid
+    {
+        margin-top: 30px;
+        margin-left: -15px;
+
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+
+    .obesity .info .grid .item
+    {
+        font-size: 13px;
+
+        width: calc(50% - 15px);
+        margin-left: 15px;
+
+        text-align: center;
+    }
+
+    .obesity .info .grid .item .icon
+    {
+        width: 75px;
+        margin: 0 auto 10px;
+    }
+
+    .obesity .info .grid .item .name
+    {
+        width: 100%;
+    }
+
+    .obesity .info .exp
+    {
+        margin-left: 0;
+    }
+
+
+
+    .at_weight
+    {
+        padding: 30px 0 40px;
+    }
+
+    .at_weight .img
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .at_weight .img img
+    {
+        width: 70px;
+        margin: 0 auto;
+    }
+
+    .at_weight .info
+    {
+        width: 100%;
+    }
+
+    .at_weight .info .title
+    {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .at_weight .info .desc
+    {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .at_weight .info .grid
+    {
+        margin-top: 30px;
+        margin-left: -15px;
+
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+
+    .at_weight .info .grid .item
+    {
+        font-size: 13px;
+
+        width: calc(50% - 15px);
+        margin-left: 15px;
+
+        text-align: center;
+    }
+
+    .at_weight .info .grid .item .icon
+    {
+        width: 75px;
+        margin: 0 auto 10px;
+    }
+
+    .at_weight .info .grid .item .name
+    {
+        width: 100%;
+    }
+
+    .at_weight .info .grid .item b
+    {
+        font-size: 18px;
+    }
+
+
+
+    .perfect_drug
+    {
+        padding: 30px 0 40px;
+    }
+
+    .perfect_drug .img
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .perfect_drug .img img
+    {
+        width: 70px;
+        margin: 0 auto;
+    }
+
+    .perfect_drug .info
+    {
+        width: 100%;
+    }
+
+    .perfect_drug .info .title
+    {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .perfect_drug .info .title small
+    {
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    .perfect_drug .info .item .foto
+    {
+        width: 50px;
+        margin-right: 20px;
+
+        border-width: 2px;
+    }
+
+    .perfect_drug .info .item .text,
+    .perfect_drug .info .item:nth-child(2n) .text
+    {
+        font-size: 14px;
+        line-height: 18px;
+
+        width: calc(100% - 70px);
+        padding: 10px 15px;
+    }
+
+    .perfect_drug .info .item
+    {
+        margin-left: 0;
+    }
+
+    .perfect_drug .info .exp
+    {
+        margin-left: 0;
+    }
+
+
+    .perfect_drug .pharmacotherapy .text .title
+    {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .perfect_drug .pharmacotherapy .text
+    {
+        font-size: 12px;
+    }
+
+
+
+    .ideal_drug
+    {
+        padding: 40px 0 30px;
+    }
+
+    .ideal_drug .block_title
+    {
+        font-size: 23px;
+        line-height: 27px;
+    }
+
+    .ideal_drug .cont > .title
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .ideal_drug .cont > .title small
+    {
+        font-size: 8px;
+        line-height: 16px;
+    }
+
+    .ideal_drug .info .title
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        margin-bottom: 20px;
+    }
+
+    .ideal_drug .info li + li
+    {
+        margin-top: 15px;
+    }
+
+    .ideal_drug .info .col.left
+    {
+        padding-bottom: 100px;
+    }
+
+    .ideal_drug .info .col.right
+    {
+        padding-top: 120px;
+    }
+
+    .ideal_drug .info .img
+    {
+        width: 275px;
+        max-width: 85%;
+    }
+
+
+
+    .bottom_block .title
+    {
+        font-size: 18px;
+    }
+
+    .bottom_block .title img
+    {
+        height: 26px;
+    }
+
+
+
+    .reduxin_head
+    {
+        margin-top: 60px;
+    }
+
+    .reduxin_head img
+    {
+        max-width: 85%;
+    }
+
+    .reduxin_head h1
+    {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .reduxin_head ul li
+    {
+        font-size: 16px;
+    }
+
+    .reduxin_head ul li br
+    {
+        display: none;
+    }
+
+    .reduxin_head .slogan
+    {
+        font-size: 15px;
+
+        margin-top: 25px;
+    }
+
+
+
+    .reduxin .text
+    {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+
+
+    .text_block
+    {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .text_block h2
+    {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .text_block h3
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+    .text_block .download .item
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        padding: 12px 15px 12px 68px;
+
+        background-position: 15px 50% !important;
+    }
+
+    .text_block .download .item .name
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .text_block .download .item.accordion .item
+    {
+        padding-right: 50px;
+    }
+
+    .text_block .download .item.accordion .item:after
+    {
+        right: 15px;
+    }
+
+    .text_block .download .item.accordion .data
+    {
+        padding: 15px 15px 0;
+    }
+
+
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer
+    {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+
+
+    /*---------------
+        PopUp
+    ---------------*/
+    .modal_title
+    {
+        font-size: 24px;
+        line-height: 26px;
+
+        padding: 15px 0;
+    }
+
+
+    .modal .text
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    .modal .links a
+    {
+        font-size: 13px;
+        line-height: 15px;
+
+        width: 100%;
+        padding: 13px 15px;
+    }
+
+    .modal .links a + a
+    {
+        margin-top: 15px;
+        margin-left: 0;
+    }
+}

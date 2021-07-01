@@ -1,0 +1,563 @@
+@media (max-width: 767px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    .page_head .cont
+    {
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .page_head img
+    {
+        position: relative;
+        top: 0;
+        right: 0;
+
+        max-width: 55%;
+        max-height: 100%;
+        margin: 0 auto 20px;
+
+        transform: none;
+    }
+
+    .page_head h1
+    {
+        font-size: 30px;
+        line-height: 36px;
+
+        text-align: center;
+    }
+
+    .page_head img + h1
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+
+    .tabs li a
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*---------------
+        Header
+    ---------------*/
+    header .slogan
+    {
+        display: none;
+    }
+
+    header .stamp
+    {
+        right: -12px;
+
+        width: 100px;
+    }
+
+
+
+    /*---------------
+        Sidebar
+    ---------------*/
+    aside .download a
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*---------------
+        Main section
+    ---------------*/
+    .first_section .cont
+    {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .first_section .info
+    {
+        padding-left: 15px;
+    }
+
+    .first_section .title
+    {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .first_section .title b
+    {
+        font-size: 36px;
+        line-height: 38px;
+
+        padding-left: 0;
+    }
+
+    .first_section .img
+    {
+        right: 5px !important;
+
+        max-height: 80%;
+        margin-top: 50px;
+    }
+
+
+
+    .advantages
+    {
+        padding: 50px 0;
+    }
+
+    .advantages .info
+    {
+        padding-left: 0;
+    }
+
+    .advantages .info .logo
+    {
+        margin-bottom: 30px;
+    }
+
+    .advantages .info .logo img
+    {
+        height: 40px;
+    }
+
+    .advantages .info li
+    {
+        font-size: 18px;
+    }
+
+    .advantages .info li + li
+    {
+        margin-top: 20px;
+    }
+
+    .advantages .info li:last-child
+    {
+        padding-right: 140px;
+    }
+
+
+
+    .obesity
+    {
+        padding: 50px 0;
+    }
+
+    .obesity .img
+    {
+        width: 100px;
+        height: auto !important;
+        margin-left: -5px;
+    }
+
+    .obesity .img img
+    {
+        margin-top: 25px;
+    }
+
+    .obesity .img img.thin
+    {
+        display: none;
+    }
+
+    .obesity .info
+    {
+        width: calc(100% - 100px);
+    }
+
+    .obesity .info .desc
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        padding: 0;
+    }
+
+    .obesity .info .title
+    {
+        font-size: 32px;
+        line-height: 36px;
+
+        margin-bottom: 20px;
+    }
+
+    .obesity .info .grid
+    {
+        margin-top: 45px;
+        margin-left: -130px;
+    }
+
+    .obesity .info .grid .item
+    {
+        font-size: 14px;
+    }
+
+    .obesity .info .grid .item .icon
+    {
+        width: 55px;
+    }
+
+    .obesity .info .grid .item .name
+    {
+        width: calc(100% - 70px);
+    }
+
+    .obesity .info .exp
+    {
+        margin-top: 30px;
+        margin-left: -100px;
+    }
+
+
+
+    .at_weight
+    {
+        padding: 50px 0;
+    }
+
+    .at_weight .img
+    {
+        display: flex;
+
+        width: 100px;
+        height: auto;
+        margin-left: -15px;
+    }
+
+    .at_weight .img img
+    {
+        height: auto;
+        margin-top: -25px;
+    }
+
+    .at_weight .info
+    {
+        width: calc(100% - 100px);
+    }
+
+    .at_weight .info .desc
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        padding: 0;
+    }
+
+    .at_weight .info .title
+    {
+        font-size: 32px;
+        line-height: 36px;
+
+        margin-bottom: 20px;
+    }
+
+    .at_weight .info .grid
+    {
+        margin-top: 45px;
+        margin-left: -130px;
+    }
+
+    .at_weight .info .grid .item
+    {
+        font-size: 14px;
+    }
+
+    .at_weight .info .grid .item .icon
+    {
+        width: 55px;
+    }
+
+    .at_weight .info .grid .item .name
+    {
+        width: calc(100% - 70px);
+    }
+
+    .at_weight .info .grid .item b
+    {
+        font-size: 20px;
+    }
+
+
+
+    .perfect_drug
+    {
+        padding: 50px 0;
+    }
+
+    .perfect_drug .img
+    {
+        display: flex;
+
+        width: 100px;
+        height: auto;
+    }
+
+    .perfect_drug .img img
+    {
+        height: auto;
+        margin-top: 0;
+        margin-left: -10px;
+    }
+
+    .perfect_drug .info
+    {
+        width: calc(100% - 100px);
+    }
+
+    .perfect_drug .info .title
+    {
+        font-size: 21px;
+        line-height: 29px;
+
+        margin-bottom: 20px;
+    }
+
+    .perfect_drug .info .item
+    {
+        margin-left: -100px;
+    }
+
+    .perfect_drug .info .item .foto
+    {
+        width: 70px;
+
+        border-width: 3px;
+    }
+
+    .perfect_drug .info .item .text
+    {
+        font-size: 15px;
+        line-height: 20px;
+
+        width: calc(100% - 95px);
+    }
+
+    .perfect_drug .info .exp
+    {
+        margin-top: 30px;
+        margin-left: -100px;
+    }
+
+
+
+    .ideal_drug .block_title
+    {
+        font-size: 28px;
+        line-height: 34px;
+
+        margin-bottom: 30px;
+    }
+
+    .ideal_drug .cont > .title
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        width: 100%;
+    }
+
+    .ideal_drug .cont > .title.top
+    {
+        margin-bottom: 30px;
+    }
+
+    .ideal_drug .cont > .title.bottom
+    {
+        margin-top: 30px;
+    }
+
+    .ideal_drug .cont > .title small
+    {
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    .ideal_drug .info .col.left
+    {
+        padding: 30px 20px 120px;
+    }
+
+    .ideal_drug .info .col.right
+    {
+        padding: 200px 20px 30px;
+    }
+
+    .ideal_drug .info li
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+
+    .bottom_block
+    {
+        padding-top: 30px;
+    }
+
+    .bottom_block .title
+    {
+        font-size: 20px;
+    }
+
+    .bottom_block .title img
+    {
+        height: 30px;
+    }
+
+
+
+    .reduxin_head .cont
+    {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .reduxin_head img
+    {
+        position: relative;
+        top: 0;
+        right: 0;
+
+        max-width: 55%;
+        max-height: 100%;
+        margin: 0 auto 20px;
+
+        transform: none;
+    }
+
+    .reduxin_head h1
+    {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .reduxin_head ul li
+    {
+        font-size: 18px;
+    }
+
+    .reduxin_head ul li + li
+    {
+        margin-top: 15px;
+    }
+
+    .reduxin .text
+    {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .reduxin_head .slogan
+    {
+        margin-left: 0;
+
+        white-space: normal;
+    }
+
+
+
+    .text_block
+    {
+        text-align: left;
+    }
+
+    .text_block h2
+    {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .text_block h3
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer .logo
+    {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    footer .logo img
+    {
+        margin: 0 auto;
+    }
+
+
+    footer .contacts
+    {
+        width: 100%;
+        padding: 15px 0 0;
+
+        text-align: center;
+
+        border-top: 4px solid #0e76bc;
+        border-left: none;
+    }
+
+
+    footer .creator
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    footer .strong_russian
+    {
+        margin: 15px auto 0;
+    }
+
+
+
+    /*---------------
+        PopUp
+    ---------------*/
+    .modal_title
+    {
+        font-size: 28px;
+        line-height: 30px;
+
+        padding: 20px 0;
+    }
+
+
+    .modal .data
+    {
+        padding: 20px;
+    }
+
+
+    .modal .text
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+    .modal .links a
+    {
+        font-size: 14px;
+        line-height: 18px;
+
+        padding: 10px 15px;
+    }
+}

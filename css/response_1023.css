@@ -1,0 +1,615 @@
+@media (max-width: 1023px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    .first_section .title,
+    .first_section .img,
+    .advantages .info li,
+    .advantages .img,
+    .obesity .img,
+    .obesity .info .grid .item,
+    .at_weight .img,
+    .at_weight .info .grid .item,
+    .perfect_drug .img,
+    .perfect_drug .info .item,
+    .ideal_drug .cont > .title,
+    .ideal_drug .info .col,
+    .ideal_drug .info .img img,
+    .ideal_drug .info li,
+    .page_head img,
+    .for_doctor .info .img,
+    .text_block .download > *,
+    .information .info .img,
+    .reduxin_head .info,
+    .reduxin_head .img
+    {
+        visibility: visible !important;
+    }
+
+
+
+    .page_head
+    {
+        margin-bottom: 30px;
+    }
+
+    .page_head .cont
+    {
+        height: 250px;
+    }
+
+    .page_head img
+    {
+        top: 50%;
+        right: 45px;
+
+        max-height: 85%;
+
+        transform: translateY(-50%);
+    }
+
+    .page_head h1
+    {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .page_head img + h1
+    {
+        max-width: calc(100% - 300px);
+    }
+
+
+
+    .content
+    {
+        padding-bottom: 30px;
+    }
+
+
+
+    .tabs
+    {
+        margin-top: 30px;
+    }
+
+    .tabs li a
+    {
+        font-size: 18px;
+        line-height: 50px;
+
+        height: 50px;
+    }
+
+
+
+    /*---------------
+        Header
+    ---------------*/
+    header .slogan,
+    header .mob_menu_link
+    {
+        display: block;
+    }
+
+
+    header .menu
+    {
+        position: absolute;
+        z-index: 1000;
+        top: 100%;
+        left: 0;
+
+        display: none;
+
+        width: 100%;
+        padding: 5px 0 15px;
+
+        background: #fff;
+    }
+
+    header .menu a
+    {
+        display: block;
+
+        width: 100%;
+        padding: 10px 15px;
+    }
+
+    header .menu a br
+    {
+        display: none;
+    }
+
+    header .menu a + a
+    {
+        margin-top: 5px;
+    }
+
+    header .menu .sep
+    {
+        display: none;
+    }
+
+
+    header .stamp
+    {
+        top: 50px;
+    }
+
+
+
+    /*---------------
+        Sidebar
+    ---------------*/
+
+
+
+    /*---------------
+        Main section
+    ---------------*/
+    .first_section .cont
+    {
+        position: relative;
+
+        height: auto;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .first_section .info
+    {
+        position: relative;
+        top: 0;
+
+        width: 100%;
+        margin: 0 !important;
+        padding-left: 30px;
+    }
+
+    .first_section .title
+    {
+        font-size: 38px;
+        line-height: 40px;
+    }
+
+    .first_section .title b
+    {
+        font-size: 46px;
+        line-height: 48px;
+    }
+
+    .first_section .img
+    {
+        position: absolute;
+        top: 50% !important;
+        right: 45px !important;
+
+        height: auto;
+        max-height: 85%;
+        margin: 100px 0 0;
+
+        transform: translateY(-50%);
+    }
+
+
+
+    .advantages
+    {
+        padding: 60px 0;
+    }
+
+    .advantages .info .logo
+    {
+        margin-bottom: 40px;
+    }
+
+    .advantages .info .logo img
+    {
+        height: 50px;
+    }
+
+    .advantages .info li
+    {
+        font-size: 20px;
+    }
+
+    .advantages .info li + li
+    {
+        margin-top: 30px;
+    }
+
+
+
+    .obesity
+    {
+        padding: 60px 0;
+    }
+
+    .obesity .cont
+    {
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+
+    .obesity .img
+    {
+        width: 150px;
+    }
+
+    .obesity .img img
+    {
+        height: auto;
+    }
+
+    .obesity .info
+    {
+        width: calc(100% - 160px);
+    }
+
+    .obesity .info .title
+    {
+        font-size: 38px;
+        line-height: 42px;
+
+        margin-bottom: 25px;
+    }
+
+    .obesity .info .desc
+    {
+        font-size: 18px;
+    }
+
+    .obesity .info .grid
+    {
+        margin-top: 35px;
+        margin-bottom: -25px;
+        margin-left: -30px;
+    }
+
+    .obesity .info .grid .item
+    {
+        font-size: 15px;
+
+        width: calc(50% - 30px);
+        margin-bottom: 25px;
+        margin-left: 30px;
+    }
+
+    .obesity .info .grid .item .icon
+    {
+        width: 75px;
+    }
+
+    .obesity .info .grid .item .name
+    {
+        width: calc(100% - 90px);
+    }
+
+    .obesity .info .exp
+    {
+        margin-top: 35px;
+    }
+
+
+
+    .at_weight .cont
+    {
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+
+    .obesity .img img.thin
+    {
+        height: 350px;
+    }
+
+    .at_weight .info
+    {
+        width: calc(100% - 180px);
+    }
+
+    .at_weight .info .title
+    {
+        font-size: 38px;
+        line-height: 42px;
+
+        margin-bottom: 25px;
+    }
+
+    .at_weight .info .desc
+    {
+        font-size: 18px;
+    }
+
+    .at_weight .info .grid
+    {
+        margin-top: 35px;
+        margin-bottom: -25px;
+        margin-left: -30px;
+    }
+
+    .at_weight .info .grid .item
+    {
+        font-size: 15px;
+
+        width: calc(50% - 30px);
+        margin-bottom: 25px;
+        margin-left: 30px;
+    }
+
+    .at_weight .info .grid .item .icon
+    {
+        width: 75px;
+    }
+
+    .at_weight .info .grid .item .name
+    {
+        width: calc(100% - 90px);
+    }
+
+
+
+    .perfect_drug .cont
+    {
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+
+    .perfect_drug .info
+    {
+        width: calc(100% - 180px);
+    }
+
+    .perfect_drug .info .title
+    {
+        font-size: 28px;
+        line-height: 34px;
+
+        margin-bottom: 25px;
+    }
+
+    .perfect_drug .info .exp
+    {
+        margin-top: 40px;
+    }
+
+
+
+    .ideal_drug
+    {
+        padding: 50px 0 30px;
+    }
+
+    .ideal_drug .block_title
+    {
+        font-size: 36px;
+        line-height: 40px;
+
+        margin-bottom: 35px;
+    }
+
+    .ideal_drug .cont > .title
+    {
+        font-size: 18px;
+        line-height: 26px;
+
+        width: 450px;
+    }
+
+    .ideal_drug .cont > .title.top
+    {
+        margin-bottom: 35px;
+    }
+
+    .ideal_drug .cont > .title.bottom
+    {
+        margin-top: 35px;
+    }
+
+    .ideal_drug .cont > .title.top:after,
+    .ideal_drug .cont > .title.bottom:after
+    {
+        display: none;
+    }
+
+    .ideal_drug .info
+    {
+        width: calc(100% + 30px);
+        margin: 0 -15px;
+    }
+
+    .ideal_drug .info .col.left
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 40px 40px 170px;
+
+        border-radius: 0;
+    }
+
+    .ideal_drug .info .title
+    {
+        font-size: 18px;
+        line-height: 26px;
+
+        margin-bottom: 25px;
+    }
+
+    .ideal_drug .info li
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .ideal_drug .info li + li
+    {
+        margin-top: 20px;
+    }
+
+    .ideal_drug .info .col.right
+    {
+        width: 100%;
+        padding: 170px 40px 40px;
+
+        border-radius: 0;
+    }
+
+    .ideal_drug .info .img
+    {
+        width: 385px;
+        max-width: 85%;
+    }
+
+
+
+    .bottom_block .title
+    {
+        font-size: 22px;
+    }
+
+    .bottom_block .title img
+    {
+        height: 32px;
+    }
+
+
+
+    .video_block
+    {
+        margin-bottom: 30px;
+    }
+
+
+
+    .for_doctor
+    {
+        padding-bottom: 20px;
+    }
+
+    .for_doctor .info
+    {
+        width: 100%;
+    }
+
+
+
+    .information
+    {
+        padding-bottom: 20px;
+    }
+
+    .information .info
+    {
+        width: 100%;
+    }
+
+
+
+    .reduxin_head
+    {
+        margin-bottom: 30px;
+    }
+
+    .reduxin_head .cont
+    {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .reduxin_head .info
+    {
+        width: 400px;
+    }
+
+    .reduxin_head h1
+    {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .reduxin_head ul
+    {
+        margin-top: 30px;
+    }
+
+    .reduxin_head ul li
+    {
+        font-size: 20px;
+    }
+
+    .reduxin_head ul li + li
+    {
+        margin-top: 20px;
+    }
+
+    .reduxin_head .slogan
+    {
+        font-size: 20px;
+
+        margin-top: 30px;
+        margin-left: 70px;
+    }
+
+    .reduxin_head img
+    {
+        width: 320px;
+    }
+
+
+
+    .reduxin .text
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        margin-bottom: 30px;
+        padding-bottom: 25px;
+    }
+
+
+
+    .text_block h2
+    {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .text_block * + h3
+    {
+        margin-top: 30px;
+    }
+
+    .text_block .download .item.accordion .video_block
+    {
+        margin: 0 0 -10px;
+    }
+
+
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer .contacts
+    {
+        width: calc(100% - 246px);
+    }
+
+
+    footer .strong_russian
+    {
+        margin-top: 20px;
+    }
+
+    footer .creator
+    {
+        width: auto;
+    }
+
+
+
+    /*---------------
+        PopUp
+    ---------------*/
+}
