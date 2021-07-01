@@ -277,6 +277,18 @@
 
 
 
+    .forte_info .section1
+    {
+        padding: 200px 0 80px;
+    }
+
+    .forte_info .section1 .bg
+    {
+        height: calc(100% - 95px);
+    }
+
+
+
     /*---------------
         Footer
     ---------------*/

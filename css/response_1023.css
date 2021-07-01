@@ -588,6 +588,154 @@
 
 
 
+    .forte_info .section1
+    {
+        padding-top: 124px;
+        padding-bottom: 32px;
+    }
+
+
+    .forte_info .section1 .info
+    {
+        width: 100%;
+    }
+
+    .forte_info .section1 .info .title
+    {
+        font-size: 28px;
+    }
+
+    .forte_info .section1 .info .title .name
+    {
+        font-size: 40px;
+        line-height: 44px;
+
+        margin-bottom: 4px;
+    }
+
+
+    .forte_info .section1 .info .items
+    {
+        font-size: 17px;
+        line-height: 21px;
+
+        width: 45%;
+        margin-top: 40px;
+    }
+
+    .forte_info .section1 .info .items > * + *
+    {
+        margin-top: 24px;
+    }
+
+
+    .forte_info .section1 .image
+    {
+        position: relative;
+        top: 0;
+
+        width: 50%;
+        margin-top: -172px;
+        margin-left: auto;
+    }
+
+
+
+    .forte_info .section2 .block_title
+    {
+        font-size: 27px;
+        line-height: 31px;
+    }
+
+    .forte_info .section2 .block_title br
+    {
+        display: none;
+    }
+
+
+    .forte_info .section2 .item
+    {
+        width: 100%;
+    }
+
+    .forte_info .section2 .item .title
+    {
+        font-size: 26px;
+        line-height: 30px;
+
+        margin-bottom: 20px;
+    }
+
+    .forte_info .section2 .item .items > * + *
+    {
+        margin-top: 16px;
+    }
+
+
+    .forte_info .section2 .image
+    {
+        width: 354px;
+        margin: 0 auto;
+        padding: 40px 0;
+
+        transform: rotate(90deg);
+    }
+
+    .forte_info .section2 .image img
+    {
+        transform: rotate(-90deg);
+    }
+
+
+
+    .forte_info .section3
+    {
+        padding: 60px 0;
+    }
+
+
+    .forte_info .section3 .block_title
+    {
+        font-size: 27px;
+        line-height: 31px;
+    }
+
+    .forte_info .section3 .block_title br
+    {
+        display: none;
+    }
+
+
+    .forte_info .section3 .row
+    {
+        margin-bottom: -32px;
+        margin-left: -32px;
+    }
+
+    .forte_info .section3 .row > *
+    {
+        width: calc(50% - 32px);
+        margin-bottom: 32px;
+        margin-left: 32px;
+    }
+
+
+    .forte_info .section3 .item
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+
+    .forte_info .bottom .block_title
+    {
+        font-size: 27px;
+        line-height: 31px;
+    }
+
+
+
     /*---------------
         Footer
     ---------------*/

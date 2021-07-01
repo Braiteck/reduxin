@@ -543,6 +543,134 @@
 
 
 
+    .forte_info .section1
+    {
+        padding-top: 108px;
+    }
+
+
+    .forte_info .section1 .bg
+    {
+        height: calc(100% - 60px);
+    }
+
+
+    .forte_info .section1 .info .title
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+    .forte_info .section1 .info .title .name
+    {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .forte_info .section1 .info .title sup
+    {
+        font-size: 18px;
+    }
+
+
+    .forte_info .section1 .info .items
+    {
+        font-size: 15px;
+        line-height: 19px;
+
+        width: 100%;
+    }
+
+    .forte_info .section1 .info .items > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    .forte_info .section1 .image
+    {
+        position: relative;
+        left: 10px;
+
+        width: 100%;
+        margin-top: 32px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+
+    .forte_info .section2 .block_title
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+
+    .forte_info .section2 .item
+    {
+        padding: 24px;
+    }
+
+    .forte_info .section2 .item .items
+    {
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .forte_info .section2 .item .items > *
+    {
+        padding-left: 40px;
+    }
+
+
+    .forte_info .section2 .image
+    {
+        width: 290px;
+    }
+
+    .forte_info .section2 .image img
+    {
+        height: 210px;
+    }
+
+
+
+    .forte_info .section3 .block_title
+    {
+        font-size: 22px;
+        line-height: 28px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .forte_info .section3 .item
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .forte_info .section3 .item .icon
+    {
+        width: 44px;
+    }
+
+    .forte_info .section3 .item .icon + div
+    {
+        width: calc(100% - 64px);
+    }
+
+
+
+    .forte_info .bottom .block_title
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+
+
     /*---------------
         Footer
     ---------------*/
